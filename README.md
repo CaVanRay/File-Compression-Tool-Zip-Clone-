@@ -14,6 +14,6 @@ I looked up some info on "building your first real compressor" and I think I fou
 
 4. Assign bit codes — walk the tree: left = 0, right = 1. Each leaf gets a variable-length code (frequent bytes get short codes like 01, rare bytes get long ones like 110101).
 
-5. 
+5. Encode — for each input byte, append its bit code to a bit buffer.  You need a bit writer that accumulates bits and flushes them into bytes:
 
 
