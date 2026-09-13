@@ -38,5 +38,9 @@ public:
 ```
 6. Write the header — you must serialize the Huffman tree (or the code lengths) into the output file so the decompressor can rebuild it.  A common trick: store the code length for each of the 256 byte values (a 256-byte table, or compress that table itself).
 
-7. Decompress — read the header, rebuild the tree, then read bits one at a time walking the tree until you hit a leaf → emit that byte. 
+7. Decompress — read the header, rebuild the tree, then read bits one at a time walking the tree until you hit a leaf → emit that byte.
+
+8. This alone will meaningfully compress text files. You now have a working compressor/decompressor pair.
+
+***
 
