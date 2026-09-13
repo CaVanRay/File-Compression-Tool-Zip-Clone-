@@ -16,7 +16,7 @@ I looked up some info on "building your first real compressor" and I think I fou
 
 5. Encode — for each input byte, append its bit code to a bit buffer.  You need a bit writer that accumulates bits and flushes them into bytes:
 
-('''
+```
 class BitWriter {
     uint32_t buffer = 0;
     int bitCount = 0;
@@ -35,4 +35,4 @@ public:
         if (bitCount > 0) output.push_back(buffer & ((1 << bitCount) - 1));
     }
 };
-''')
+```
