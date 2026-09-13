@@ -54,5 +54,7 @@ Huffman handles frequency skew but not repeated sequences. LZ77 handles that:
 
 The output is a stream of tokens: either a literal byte or a (distance, length) pair. You encode these with a 1-bit flag:
 
+- 0 + 8 bits → literal
+
 
 
