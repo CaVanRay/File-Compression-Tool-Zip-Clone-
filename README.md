@@ -49,4 +49,5 @@ Huffman handles frequency skew but not repeated sequences. LZ77 handles that:
 
 - Maintain a sliding window of the last N bytes (e.g., 4096) of already-compressed output. 
 - At each position, search the window for the longest match with the upcoming input. 
+- If a match of length ≥ 3 is found, emit a back-reference: (offset, length) — "go back offset bytes and copy length bytes."
 
