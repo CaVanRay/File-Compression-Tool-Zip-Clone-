@@ -63,4 +63,18 @@ The Code Review StackExchange LZ77 implementation is a clean, readable reference
 
 ## Combine: LZ77 + Huffman = Deflate
 
+This is what ZIP/GZIP actually do. You take the LZ77 token stream (literals, length codes, distance codes) and Huffman-encode those tokens instead of raw bytes.  This gives you the compression ratios of real-world tools.
 
+The key insight: you build two separate Huffman trees — one for literals/lengths, one for distances — because they have different frequency distributions. 
+
+***
+
+## Practical Tips
+
+- Start with Huffman only. Get the bit I/O, tree building, and header serialization working.  This is the hardest part to get right (off-by-one bits, endianness, padding).
+- Test round-trip early. Compress → decompress → compare byte-for-byte with the original. Do this after every change.
+- Work in std::vector<uint8_t>, not std::string. Strings with null bytes are a pain.
+- The bit-level I/O is where most bugs live. A BitReader that mirrors your BitWriter (reads from MSB first, same order) will save you hours.
+- Shannon entropy is your hard floor.  For a file, compute H = -Σ p(x)·log₂(p(x)) over byte frequencies. Your compressed size can't go below H × N / 8 bytes. Use this to verify you're not doing something wrong.
+
+The ochagavia.nl "Let's build a compressor from scratch" writeup walks through the Huffman approach step by step and is a good companion to follow alongside your own implementation. 
