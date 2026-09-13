@@ -48,4 +48,5 @@ public:
 Huffman handles frequency skew but not repeated sequences. LZ77 handles that:
 
 - Maintain a sliding window of the last N bytes (e.g., 4096) of already-compressed output. 
-- 
+- At each position, search the window for the longest match with the upcoming input. 
+
