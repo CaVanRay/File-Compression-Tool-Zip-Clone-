@@ -36,3 +36,4 @@ public:
     }
 };
 ```
+6. Write the header — you must serialize the Huffman tree (or the code lengths) into the output file so the decompressor can rebuild it.  A common trick: store the code length for each of the 256 byte values (a 256-byte table, or compress that table itself).
