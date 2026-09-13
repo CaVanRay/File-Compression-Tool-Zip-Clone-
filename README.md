@@ -47,3 +47,5 @@ public:
 ## Level Up: LZ77 (sliding window)
 Huffman handles frequency skew but not repeated sequences. LZ77 handles that:
 
+- Maintain a sliding window of the last N bytes (e.g., 4096) of already-compressed output. 
+- 
