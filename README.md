@@ -45,3 +45,5 @@ public:
 ***
 
 ## Level Up: LZ77 (sliding window)
+Huffman handles frequency skew but not repeated sequences. LZ77 handles that:
+
