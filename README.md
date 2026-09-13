@@ -5,3 +5,5 @@
 I looked up some info on "building your first real compressor" and I think I found a good guide for feeling the process out
 
 ## Start: Huffman Coding (your first real compressor)
+
+1. Read the file into a std::vector<uint8_t> using std::ifstream in binary mode.
