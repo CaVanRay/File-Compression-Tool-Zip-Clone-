@@ -59,5 +59,8 @@ The output is a stream of tokens: either a literal byte or a (distance, length) 
 
 The Code Review StackExchange LZ77 implementation is a clean, readable reference that does exactly this with a BitWriter/BitReader pair. 
 
+***
+
+## Combine: LZ77 + Huffman = Deflate
 
 
