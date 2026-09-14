@@ -3,5 +3,7 @@
 #include <cstdint>
 
 std::vector<uint8_t> read_binary_file(){
+
+  // Open file in binary mode
   
 }
