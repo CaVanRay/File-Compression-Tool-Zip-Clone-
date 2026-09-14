@@ -19,6 +19,9 @@ std::vector<uint8_t> read_binary_file(const std::string& filename){
   std::vector<uint8_t> buffer(static_cast<size_t>(size));
 
   // Read entire file into buffer
+  if (file.read(reinterpret_cast<char*>(buffer.data()), size)){
+    
+  }
   
   
 }
