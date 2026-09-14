@@ -8,7 +8,7 @@ std::vector<uint8_t> read_binary_file(const std::string& filename){
   std::ifstream file(filename, std::ios::binary | std::ios::ate);
 
   if (!file.is_open()){
-    
+    throw std::runtime_error("Failed to open file: " + filename);
   }
   
 }
