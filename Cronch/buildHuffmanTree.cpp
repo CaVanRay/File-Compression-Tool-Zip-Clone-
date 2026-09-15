@@ -9,5 +9,6 @@ uint32_t freq;
 uint8_t symbol;  // valid only for leaves
 bool is_leaf;
 std::unique_ptr<HuffmanNode> left;
+std::unique_ptr<HuffmanNode> right;
 
 };
