@@ -6,5 +6,6 @@
 struct HuffmanNode {
 
 uint32_t freq;
+uint8_t symbol;
 
 };
