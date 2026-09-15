@@ -12,5 +12,6 @@ std::unique_ptr<HuffmanNode> left;
 std::unique_ptr<HuffmanNode> right;
 
 HuffmanNode(uint32_t f, uint8_t s) : freq(f), symbol(s), is_leaf(true) {}
+HuffmanNode(uint32_t f, std::unique_ptr<HuffmanNode> l, std::unique_ptr<HuffmanNode> r)
 
 };
