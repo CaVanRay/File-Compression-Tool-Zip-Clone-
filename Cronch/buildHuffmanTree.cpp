@@ -22,3 +22,7 @@ struct Compare {
       return a->freq > b->freq; // note: GREATER than -> min-heap
   }
 };
+
+std::unique_ptr<HuffmanNode> build_huffman_tree(const uint32_t freq[256]) {
+  
+}
