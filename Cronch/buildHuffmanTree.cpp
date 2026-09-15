@@ -21,7 +21,7 @@ struct Compare {
 
   bool operator()(const std::unique_ptr<HuffmanNode>& a, const std::unique_ptr<HuffmanNode>& b) const {
     
-      return a->freq > b->freq;   
+      return a->freq > b->freq; // note: GREATER than -> min-heap
     
   }
 
