@@ -6,6 +6,6 @@
 struct HuffmanNode {
 
 uint32_t freq;
-uint8_t symbol;
+uint8_t symbol;  // valid only for leaves
 
 };
