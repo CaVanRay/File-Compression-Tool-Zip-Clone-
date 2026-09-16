@@ -44,5 +44,8 @@ std::unique_ptr<HuffmanNode> build_huffman_tree(const uint32_t freq[256]) {
       auto leaf = std::move(pq.top()); pq.pop();
       return std::make_unique<HuffmanNode>(leaf->freq, std::move(leaf), nullptr); 
   }
+
+  // Merge until one node remains
+  
   
 }
