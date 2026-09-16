@@ -47,7 +47,7 @@ std::unique_ptr<HuffmanNode> build_huffman_tree(const uint32_t freq[256]) {
 
   // Merge until one node remains
   while (pq.size() > 1) {
-    
+      auto lo = std::move(pq.top()); pq.pop();
   }
   
 }
