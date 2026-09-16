@@ -10,5 +10,11 @@ struct CodeTable {
 };
 
 Void assign_codes(const HuffmanNode* node, const std::string& prefix, CodeTable& table){
-    
+    if (!node) return;
+
+    if (node->is_leaf) {
+        table.code[node->symbol] = prefix;
+        table.len[node->symbol] = static_cast<uint8_t>(prefix.size());
+        return;
+    }
 }
