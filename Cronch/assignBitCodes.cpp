@@ -4,3 +4,6 @@
 #include <memory>
 
 // Code table: index = byte value, value = bit string
+struct CodeTable {
+
+};
