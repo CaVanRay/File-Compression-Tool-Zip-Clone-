@@ -39,6 +39,9 @@ std::unique_ptr<HuffmanNode> build_huffman_tree(const uint32_t freq[256]) {
     }
   }
   
-// Handle edge case: file with only one distinct byte
+  // Handle edge case: file with only one distinct byte
+  if (pq.size() == 1) {
+      
+  }
   
 }
