@@ -41,7 +41,7 @@ std::unique_ptr<HuffmanNode> build_huffman_tree(const uint32_t freq[256]) {
   
   // Handle edge case: file with only one distinct byte
   if (pq.size() == 1) {
-      
+      auto leaf = std::move(pq.top()); pq.pop();
   }
   
 }
