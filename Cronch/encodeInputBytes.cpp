@@ -9,6 +9,7 @@ public:
         cur = (cur << 1) | bit;
         if (++bits == 8) {
             out.push_back(cur);
+            cur = 0;
         }
     }
 
