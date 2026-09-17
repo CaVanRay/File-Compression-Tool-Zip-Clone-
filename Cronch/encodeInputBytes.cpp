@@ -19,4 +19,6 @@ public:
             write(c - '0');
     }
 
+    // Pad with zeros and flush any remaining bits
+
 }
