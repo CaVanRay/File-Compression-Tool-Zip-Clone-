@@ -21,7 +21,9 @@ public:
 
     // Pad with zeros and flush any remaining bits
     void flush() {
-        
+        if (bits > 0) {
+            
+        }
     }
 
 }
