@@ -15,7 +15,7 @@ public:
     }
 
     void write_code(const std::string& code) {
-        
+        for (char c : code)
     }
 
 }
