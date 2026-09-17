@@ -14,4 +14,8 @@ public:
         }
     }
 
+    void write_code(const std::string& code) {
+        
+    }
+
 }
