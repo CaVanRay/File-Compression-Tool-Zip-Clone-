@@ -8,7 +8,7 @@ public:
     void write(uint8_t bit) {
         cur = (cur << 1) | bit;
         if (++bits == 8) {
-            
+            out.push_back(cur);
         }
     }
 
