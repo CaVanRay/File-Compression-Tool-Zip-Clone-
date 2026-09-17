@@ -17,4 +17,7 @@ void assign_codes(const HuffmanNode* node, const std::string& prefix, CodeTable&
         table.len[node->symbol] = static_cast<uint8_t>(prefix.size());
         return;
     }
+
+    assign_codes(node->left, prefix + "0" , table);
+    
 }
