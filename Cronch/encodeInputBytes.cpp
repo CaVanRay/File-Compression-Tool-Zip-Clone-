@@ -20,5 +20,8 @@ public:
     }
 
     // Pad with zeros and flush any remaining bits
+    void flush() {
+        
+    }
 
 }
