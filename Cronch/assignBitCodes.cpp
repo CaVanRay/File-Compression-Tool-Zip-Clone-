@@ -19,5 +19,6 @@ void assign_codes(const HuffmanNode* node, const std::string& prefix, CodeTable&
     }
 
     assign_codes(node->left, prefix + "0" , table);
+    assign_codes(node->right, prefix + "1", table);
     
 }
