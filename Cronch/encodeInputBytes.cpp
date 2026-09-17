@@ -22,7 +22,8 @@ public:
     // Pad with zeros and flush any remaining bits
     void flush() {
         if (bits > 0) {
-            
+            cur <<= (8 - bits);
+            out.push_back(cur);
         }
     }
 
