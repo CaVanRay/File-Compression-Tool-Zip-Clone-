@@ -10,6 +10,7 @@ public:
         if (++bits == 8) {
             out.push_back(cur);
             cur = 0;
+            bits = 0;
         }
     }
 
