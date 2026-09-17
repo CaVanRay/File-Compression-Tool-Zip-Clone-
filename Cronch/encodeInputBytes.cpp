@@ -5,6 +5,8 @@ class BitWriter {
     std::vector<uint8_t> out;
 
 public:
-
+    void write(uint8_t bit) {
+        
+    }
 
 }
