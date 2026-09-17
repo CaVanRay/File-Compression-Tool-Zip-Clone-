@@ -24,7 +24,10 @@ public:
         if (bits > 0) {
             cur <<= (8 - bits);
             out.push_back(cur);
+            cur = 0;
+            bits = 0;
         }
     }
 
-}
+    const std::vector<uint8_t>& data() const { return out; }
+};
