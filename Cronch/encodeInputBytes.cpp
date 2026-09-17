@@ -6,7 +6,7 @@ class BitWriter {
 
 public:
     void write(uint8_t bit) {
-        
+        cur = (cur << 1) | bit;
     }
 
 }
