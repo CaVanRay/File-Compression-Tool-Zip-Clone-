@@ -22,4 +22,7 @@ void write_compressed(std::ofstream& file, const std::string& input, const CodeT
     // Header: original bit count (so decoder knows where to stop)
     uint32_t bit_count = static_cast<uint32_t>(input.size() * 8);
     file.write(reinterpret_cast<const char*>(&bit_count), 4);
+
+    // 256 code-length bytes
+    
 }
