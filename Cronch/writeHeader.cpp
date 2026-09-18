@@ -16,3 +16,6 @@ void write_header(std::ofstream& file, const CodeTable& table) {
 // [256 bytes: code lengths, one per sybol]
 // [compressed bitstream]
 
+void write_compressed(std::ofstream& file, const std::string& input, const CodeTable& table) {
+    
+}
