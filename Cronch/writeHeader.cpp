@@ -20,5 +20,5 @@ void write_compressed(std::ofstream& file, const std::string& input, const CodeT
     file.open("output.huf", std::ios::binary);
 
     // Header: original bit count (so decoder knows where to stop)
-    
+    uint32_t bit_count = static_cast<uint32_t>(input.size() * 8);
 }
