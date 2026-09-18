@@ -17,5 +17,7 @@ void write_header(std::ofstream& file, const CodeTable& table) {
 // [compressed bitstream]
 
 void write_compressed(std::ofstream& file, const std::string& input, const CodeTable& table) {
+    file.open("output.huf", std::ios::binary);
+
     
 }
