@@ -10,3 +10,4 @@ void write_header(std::ofstream& file, const CodeTable& table) {
 
 //***********************************************************************
 
+// Full file layout:
