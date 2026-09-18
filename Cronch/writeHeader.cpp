@@ -19,5 +19,6 @@ void write_header(std::ofstream& file, const CodeTable& table) {
 void write_compressed(std::ofstream& file, const std::string& input, const CodeTable& table) {
     file.open("output.huf", std::ios::binary);
 
+    // Header: original bit count (so decoder knows where to stop)
     
 }
