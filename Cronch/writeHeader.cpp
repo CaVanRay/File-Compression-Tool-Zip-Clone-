@@ -29,5 +29,5 @@ void write_compressed(std::ofstream& file, const std::string& input, const CodeT
 
     // Compressed data
     auto compressed = huffman_encode(input, table);
-    
+    file.write(reinterpret_cast<const char*>(comopressed.data()), static_cast<std::streamsize>(compressed.size()));
 }
