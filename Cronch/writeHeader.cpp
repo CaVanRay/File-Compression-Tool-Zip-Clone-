@@ -11,3 +11,4 @@ void write_header(std::ofstream& file, const CodeTable& table) {
 //***********************************************************************
 
 // Full file layout:
+// [4 bytes: original message length in bits]
