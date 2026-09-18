@@ -24,5 +24,6 @@ void write_compressed(std::ofstream& file, const std::string& input, const CodeT
     file.write(reinterpret_cast<const char*>(&bit_count), 4);
 
     // 256 code-length bytes
-    
+    for (int i = 0; i < 256; i++)
+        
 }
