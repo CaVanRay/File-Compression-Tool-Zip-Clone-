@@ -21,5 +21,5 @@ Node* build_tree(const uint32_t freq[256]) {
 typedef struct {
     const uint8_t *data;
     size_t         len;
-    size_t         pos;
+    size_t         pos;        /* bit position */
 }
