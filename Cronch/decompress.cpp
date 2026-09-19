@@ -16,3 +16,5 @@ typedef struct Node {
 Node* build_tree(const uint32_t freq[256]) {
     /* ... your existing priority-queue / two-queue build ... */
 }
+
+/* ---------- Bit reader (MSB-first) ---------- */
