@@ -18,3 +18,6 @@ Node* build_tree(const uint32_t freq[256]) {
 }
 
 /* ---------- Bit reader (MSB-first) ---------- */
+typedef struct {
+
+}
