@@ -7,4 +7,5 @@
 
 typedef struct Node {
     uint8_t byte;        /* valid only for leaves */
+    uint32_t freq;
 }
