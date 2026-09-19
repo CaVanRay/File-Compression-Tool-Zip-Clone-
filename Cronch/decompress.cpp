@@ -22,4 +22,4 @@ typedef struct {
     const uint8_t *data;
     size_t         len;
     size_t         pos;        /* bit position */
-}
+}  BitReader;
