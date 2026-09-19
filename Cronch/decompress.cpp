@@ -11,4 +11,4 @@ typedef struct Node {
     struct Node *left, *right;
 } Node;
 
-
+/* ---------- Rebuild tree from freq[] (same as encode side) ---------- */
