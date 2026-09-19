@@ -14,5 +14,5 @@ typedef struct Node {
 /* ---------- Rebuild tree from freq[] (same as encode side) ---------- */
 
 Node* build_tree(const uint32_t freq[256]) {
-    
+    /* ... your existing priority-queue / two-queue build ... */
 }
