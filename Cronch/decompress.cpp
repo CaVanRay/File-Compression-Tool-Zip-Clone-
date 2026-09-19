@@ -6,5 +6,5 @@
 /* ---------- Tree node (same struct you used to build) ---------- */
 
 typedef struct Node {
-    uint8_t byte;    
+    uint8_t byte;        /* valid only for leaves */
 }
