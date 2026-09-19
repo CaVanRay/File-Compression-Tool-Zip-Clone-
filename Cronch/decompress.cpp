@@ -4,3 +4,7 @@
 #include <string.h>
 
 /* ---------- Tree node (same struct you used to build) ---------- */
+
+typedef struct Node {
+
+}
