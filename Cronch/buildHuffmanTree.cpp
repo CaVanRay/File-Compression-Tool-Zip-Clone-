@@ -1,7 +1,4 @@
-#include <queue>
-#include <memory>
-#include <cstdint>
-#include <cstring>
+#include "cronchHeaders.h"
 
 struct HuffmanNode {
 
