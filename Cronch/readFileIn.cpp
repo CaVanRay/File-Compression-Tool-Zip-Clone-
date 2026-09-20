@@ -1,6 +1,4 @@
-#include <fstream>
-#include <vector>
-#include <cstdint>
+#include "cronchHeaders.h"
 
 std::vector<uint8_t> read_binary_file(const std::string& filename){
 
