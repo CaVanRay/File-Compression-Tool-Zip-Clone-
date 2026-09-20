@@ -1,7 +1,4 @@
-#include <string>
-#include <vector>
-#include <cstdint>
-#include <memory>
+#include "cronchHeaders.h"
 
 // Code table: index = byte value, value = bit string
 struct CodeTable {
