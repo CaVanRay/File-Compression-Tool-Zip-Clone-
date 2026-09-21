@@ -13,6 +13,8 @@
 
 // custom header files:
 #include "UsePuts.h"
+#include "CronchCompile.h"
+#include "CronchDeCompile.h"
 
 //***********************************
 
