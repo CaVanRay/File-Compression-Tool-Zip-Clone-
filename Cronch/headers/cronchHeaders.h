@@ -10,3 +10,17 @@
 #include <vector>
 #include <queue>
 #include <memory>
+
+//***********************************
+
+// Clear screen function swap
+inline void clearScreen() {
+#ifdef _WIN32
+    std::system("cls");
+#else
+    std::system("clear");
+#endif
+}
+
+//***********************************
+#endif //CRONCH_HEADERS_H
