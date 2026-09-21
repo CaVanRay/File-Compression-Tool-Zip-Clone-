@@ -1,5 +1,21 @@
-#include "cronchHeaders.h"
+/*******************************************************************
+Title: UsePuts
+Author: Cavan Ray Theiss
+Date: 09/21/2026
+Description/Purpose:
 
+UsePuts is all "User Inputs & Outputs", I use a variation in all my
+programs.
+
+it usually includes the inital splash screen, options menu, or 
+printing of info to the screen
+
+though for cronch it'll literally just be "compile or decompile?"
+
+*******************************************************************/
+
+
+#include "cronchHeaders.h"
 
 void optionsMenu(){
   
