@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CRONCH_HEADERS_H
+#define CRONCH_HEADERS_H
+//***********************************
 
 #include <fstream>
 #include <vector>
