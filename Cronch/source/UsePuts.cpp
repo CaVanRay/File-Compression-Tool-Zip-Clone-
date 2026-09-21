@@ -16,6 +16,18 @@ void optionsMenu(){
     std::cout << "|******  C    C   R       O    O    N   NN   C    C  H    H  ******|" << std::endl;
     std::cout << "|******   CCCC    R        OOOO     N    N    CCCC   H    H  ******|" << std::endl;
     std::cout << "|__________________________________________________________________|" << std::endl;
+    std::cout << std::endl;
+    std::cout << "                      PLEASE SELECT AN OPTION" << std::endl;
+    std::cout << "                              1) COMPILE" << std::endl;
+    std::cout << "                              2) DE-COMPILE" << std::endl;
+    std::cout << "                              3) EXIT PROGRAM" << std::endl << std::endl;
+    std::cout << "                              ";
+    int selectedAction = getInt(": ");
+    while (selectedAction < 1 || selectedAction > 3) {
+        std::cout <<"                            INVALID SELECTION, TRY AGAIN" << std::endl;
+        std::cout << "                              ";
+        selectedAction = getInt(": ");
+    }
     
   } while (cont);
   
