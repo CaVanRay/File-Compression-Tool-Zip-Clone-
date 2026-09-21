@@ -2,14 +2,16 @@
 #define CRONCH_HEADERS_H
 //***********************************
 
-#include <fstream>
+// included librarys
+#include <queue>
+#include <memory>
 #include <vector>
+#include <fstream>
 #include <cstdint>
 #include <stdlib.h>
 #include <cstring.h>
-#include <vector>
-#include <queue>
-#include <memory>
+
+#include "UsePuts.h"
 
 //***********************************
 
