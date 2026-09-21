@@ -3,10 +3,7 @@
 
 int main() {
 
-  bool cont = true;
-  while(cont){
-    
-  }
+  optionsMenu();
 
   return 0;
   
