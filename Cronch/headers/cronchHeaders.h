@@ -2,7 +2,7 @@
 #define CRONCH_HEADERS_H
 //***********************************
 
-// included librarys
+// included librarys:
 #include <queue>
 #include <memory>
 #include <vector>
@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <cstring.h>
 
+// custom header files:
 #include "UsePuts.h"
 
 //***********************************
