@@ -28,6 +28,27 @@ void optionsMenu(){
         std::cout << "                              ";
         selectedAction = getInt(": ");
     }
+    switch (selectedAction) {
+      case 1:{
+        clearScreen();
+        cronchCompile();
+        break;
+      }
+      case 2:{
+        clearScreen();
+        cronchDeCompile();
+        break;
+      }
+      case 3:{
+        clearScreen();
+        cont = false;
+        break;
+      }
+      default:{
+       std:cout << std::endl << "ERROR: INVALID MENU CHOICE" << std::endl;
+        break;
+      }
+    }
     
   } while (cont);
   
