@@ -44,3 +44,7 @@ std::string getStringP(const std::string& prompt){
 std::string getString(){
   
 }
+
+std::string getStringS(){
+  
+}
