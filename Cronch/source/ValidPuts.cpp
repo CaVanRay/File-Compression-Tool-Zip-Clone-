@@ -17,3 +17,15 @@ in my toolbox for future programs I write
 *******************************************************************/
 
 #include "cronchHeaders.h"
+
+//******************************************************************
+/*
+  2 types of string, one with a prompt & one without
+*/
+std::string getStringP(const std::string& prompt){
+  
+}
+
+std::string getString(){
+  
+}
