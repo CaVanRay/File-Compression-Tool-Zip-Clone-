@@ -22,6 +22,7 @@ in my toolbox for future programs I write
 /*
   3 types of getString: 
       getStringP : one with a prompt & error message
+      getString  : one with just an error message
 */
 std::string getStringP(const std::string& prompt){
   std::cout << prompt;
