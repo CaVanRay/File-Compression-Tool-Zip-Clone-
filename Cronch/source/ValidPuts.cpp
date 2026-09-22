@@ -23,8 +23,10 @@ in my toolbox for future programs I write
   3 types of getString: 
       getStringP : one with a prompt & error message
       getString  : one with just an error message
-      getStringS : one with nothing (Silent)
+      getStringS : one with nothing (Silent collector)
 */
+
+// PROMPT & ERROR
 std::string getStringP(const std::string& prompt){
   std::cout << prompt;
 
@@ -41,10 +43,22 @@ std::string getStringP(const std::string& prompt){
   std::cin.ignore(std::numeric_limitsa<std::streamsize>::max(), '\n');
 }
 
+// JUST ERROR
 std::string getString(){
-  
+  // Try reading a string
+  if (std::getline(std::cin, StringInput)) {
+    // on success, return value, breaking the loop
+    return StringInput;
+  }
+  // if it reaches here that means input failed
+  std::cout << "Input failure, please try again. \n";
+  // clear input
+  std::cin.clear();
+  // also clear the input buffer after failed getline
+  std::cin.ignore(std::numeric_limitsa<std::streamsize>::max(), '\n');
 }
 
+// SILENT COLLECTOR
 std::string getStringS(){
   
 }
