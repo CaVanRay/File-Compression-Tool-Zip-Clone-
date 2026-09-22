@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 // Functions to validate inputs & index
 
