@@ -28,8 +28,8 @@ in my toolbox for future programs I write
 
 // PROMPT & ERROR
 std::string getStringP(const std::string& prompt){
+  std::string StringInput;
   std::cout << prompt;
-
   // Try reading a string
   if (std::getline(std::cin, StringInput)) {
     // on success, return value, breaking the loop
@@ -40,11 +40,12 @@ std::string getStringP(const std::string& prompt){
   // clear input
   std::cin.clear();
   // also clear the input buffer after failed getline
-  std::cin.ignore(std::numeric_limitsa<std::streamsize>::max(), '\n');
+  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 // JUST ERROR
 std::string getString(){
+  std::string StringInput;
   // Try reading a string
   if (std::getline(std::cin, StringInput)) {
     // on success, return value, breaking the loop
@@ -55,11 +56,12 @@ std::string getString(){
   // clear input
   std::cin.clear();
   // also clear the input buffer after failed getline
-  std::cin.ignore(std::numeric_limitsa<std::streamsize>::max(), '\n');
+  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 // SILENT COLLECTOR
 std::string getStringS(){
+  std::string StringInput;
     // Try reading a string
   if (std::getline(std::cin, StringInput)) {
     // on success, return value, breaking the loop
@@ -69,7 +71,7 @@ std::string getStringS(){
   // clear input
   std::cin.clear();
   // also clear the input buffer after failed getline
-  std::cin.ignore(std::numeric_limitsa<std::streamsize>::max(), '\n');
+  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 //**********************************************************************************************************************
