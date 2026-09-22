@@ -15,3 +15,5 @@ not all of these are going to be useful to Cronch, but I want this
 in my toolbox for future programs I write
 
 *******************************************************************/
+
+#include "cronchHeaders.h"
