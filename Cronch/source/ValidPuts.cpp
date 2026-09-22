@@ -20,7 +20,8 @@ in my toolbox for future programs I write
 
 //******************************************************************
 /*
-  2 types of string, one with a prompt & one without
+  3 types of getString: 
+      getStringP : one with a prompt & error message
 */
 std::string getStringP(const std::string& prompt){
   std::cout << prompt;
