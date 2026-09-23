@@ -25,6 +25,6 @@ std::vector<uint8_t> read_binary_file(const std::string& filename){
   std::streamsize size + file.tellg();
   file.seekg(0, std::ios::beg);
 
-  // Resize vector tofit file content
+  // Resize vector to fit file content
   std::vector<uint8_t> buffer(static_cast<size_t>(size));
 }
