@@ -11,3 +11,7 @@ Main file for compiling sequence/functions
 #include "cronchHeaders.h"
 
 //******************************************************************
+
+std::vector<uint8_t> read_binary_file(const std::string& filename){
+  
+}
