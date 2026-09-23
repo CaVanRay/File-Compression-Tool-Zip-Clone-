@@ -15,5 +15,6 @@ Main file for compiling sequence/functions
 std::vector<uint8_t> read_binary_file(const std::string& filename){
 
   // Open file in binary mode
+  std::ifstream file(filename, std::ios::binary | std::ios::ate);
   
 }
