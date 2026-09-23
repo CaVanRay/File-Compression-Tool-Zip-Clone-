@@ -12,6 +12,7 @@ Main file for compiling sequence/functions
 
 //******************************************************************
 
+// Function for reading the file into a vector as binary
 std::vector<uint8_t> read_binary_file(const std::string& filename){
 
   // Open file in binary mode
