@@ -20,5 +20,7 @@ std::vector<uint8_t> read_binary_file(const std::string& filename){
   if (!file.is_open()){
     throw std::runtime_error("Failed to open file: " + filename);
   }
+
+  // Get file size
   
 }
