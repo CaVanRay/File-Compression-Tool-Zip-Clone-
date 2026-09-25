@@ -104,3 +104,14 @@ int getIntS(){
       getDouble  : one with just an error message
       getDoubleS : one with nothing (Silent collector)
 */
+
+
+
+//**********************************************************************************************************************
+/*
+  3 types of getYN: 
+      getYNP : one with a prompt & error message
+      getYN  : one with just an error message
+      getYNS : one with nothing (Silent collector)
+*/
+
