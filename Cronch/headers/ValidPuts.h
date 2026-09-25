@@ -23,6 +23,8 @@ int getIntS();
 
 double getDoubleP(const std::string& prompt);
 
+double getDouble();
+
 //******************************************************************
 
 bool getYN(const std::string& prompt);
