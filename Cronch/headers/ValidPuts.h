@@ -33,6 +33,8 @@ bool getYNP(const std::string& prompt);
 
 bool getYN();
 
+bool getYNS();
+
 //******************************************************************
 
 bool isValidVin(car*& head, const std::string& vin);
