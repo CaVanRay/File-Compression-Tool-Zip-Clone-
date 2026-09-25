@@ -81,3 +81,8 @@ std::string getStringS(){
       getInt  : one with just an error message
       getIntS : one with nothing (Silent collector)
 */
+
+// PROMPT & ERROR
+int getIntP(const std::string& prompt){
+  
+}
