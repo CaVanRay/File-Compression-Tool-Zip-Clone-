@@ -99,8 +99,8 @@ int getIntS(){
 
 //**********************************************************************************************************************
 /*
-  3 types of getInt: 
-      getIntP : one with a prompt & error message
-      getInt  : one with just an error message
-      getIntS : one with nothing (Silent collector)
+  3 types of getDouble: 
+      getDoubleP : one with a prompt & error message
+      getDouble  : one with just an error message
+      getDoubleS : one with nothing (Silent collector)
 */
