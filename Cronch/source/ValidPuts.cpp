@@ -86,3 +86,5 @@ std::string getStringS(){
 int getIntP(const std::string& prompt){
   
 }
+
+// JUST ERROR
