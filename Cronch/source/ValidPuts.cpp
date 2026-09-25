@@ -91,3 +91,6 @@ int getIntP(const std::string& prompt){
 int getInt(){
   
 }
+
+// SILENT COLLECTOR
+
