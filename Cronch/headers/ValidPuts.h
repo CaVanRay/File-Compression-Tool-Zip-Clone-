@@ -21,7 +21,7 @@ int getIntS();
 
 //******************************************************************
 
-double getDouble(const std::string& prompt);
+double getDoubleP(const std::string& prompt);
 
 //******************************************************************
 
