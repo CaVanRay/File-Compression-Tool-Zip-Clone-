@@ -93,4 +93,6 @@ int getInt(){
 }
 
 // SILENT COLLECTOR
-
+int getIntS(){
+  
+}
