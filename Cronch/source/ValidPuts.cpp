@@ -96,3 +96,11 @@ int getInt(){
 int getIntS(){
   
 }
+
+//**********************************************************************************************************************
+/*
+  3 types of getInt: 
+      getIntP : one with a prompt & error message
+      getInt  : one with just an error message
+      getIntS : one with nothing (Silent collector)
+*/
