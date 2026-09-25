@@ -13,7 +13,9 @@ std::string getStringS();
 
 //******************************************************************
 
-int getInt(const std::string& prompt);
+int getIntP(const std::string& prompt);
+
+int getInt();
 
 //******************************************************************
 
