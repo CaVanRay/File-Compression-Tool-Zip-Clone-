@@ -30,3 +30,6 @@ bool isValidVin(car*& head, const std::string& vin);
 //******************************************************************
 
 std::string getVIN(const std::string& prompt, car*& head);
+
+//******************************************************************
+
