@@ -17,6 +17,8 @@ int getIntP(const std::string& prompt);
 
 int getInt();
 
+int getIntS();
+
 //******************************************************************
 
 double getDouble(const std::string& prompt);
