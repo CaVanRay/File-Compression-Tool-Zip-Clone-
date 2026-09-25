@@ -29,7 +29,7 @@ double getDoubleS();
 
 //******************************************************************
 
-bool getYN(const std::string& prompt);
+bool getYNP(const std::string& prompt);
 
 bool getYN();
 
