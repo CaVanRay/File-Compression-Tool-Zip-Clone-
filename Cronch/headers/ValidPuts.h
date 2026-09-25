@@ -17,8 +17,10 @@ int getInt(const std::string& prompt);
 
 //******************************************************************
 
-
 double getDouble(const std::string& prompt);
+
+//******************************************************************
+
 
 bool getYN(const std::string& prompt);
 
