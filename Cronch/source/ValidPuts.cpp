@@ -98,6 +98,9 @@ int getIntP(const std::string& prompt){
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         return intValue;
     }
+
+    // If it reaches here that means input failed
+    
   }
   
 }
