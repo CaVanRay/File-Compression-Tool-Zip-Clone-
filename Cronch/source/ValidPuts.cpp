@@ -84,6 +84,8 @@ std::string getStringS(){
 
 // PROMPT & ERROR
 int getIntP(const std::string& prompt){
+
+  // value to grab
   
 }
 
