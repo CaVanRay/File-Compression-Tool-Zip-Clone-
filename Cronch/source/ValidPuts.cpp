@@ -118,6 +118,9 @@ int getInt(){
   int intValue;
 
   // Will continuously loop until break
+  while(true) {
+    
+  }
   
 }
 
