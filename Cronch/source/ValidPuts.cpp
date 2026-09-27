@@ -122,7 +122,9 @@ int getInt(){
       std::cout << prompt;
       
       // Try reading an int
-    
+      if (std::cin >> intValue) {
+        
+      }
   }
   
 }
