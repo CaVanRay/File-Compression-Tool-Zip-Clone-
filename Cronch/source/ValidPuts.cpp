@@ -106,7 +106,7 @@ int getIntP(const std::string& prompt){
     std::cin.clear();
 
     // Throw away invalid characters
-    
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
   
 }
