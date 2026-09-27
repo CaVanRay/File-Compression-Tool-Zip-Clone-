@@ -119,7 +119,7 @@ int getInt(){
 
   // Will continuously loop until break
   while(true) {
-    
+      std::cout << prompt;
   }
   
 }
