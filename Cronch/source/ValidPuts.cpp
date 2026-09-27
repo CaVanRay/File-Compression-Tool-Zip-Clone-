@@ -104,6 +104,8 @@ int getIntP(const std::string& prompt){
 
     // Clear input
     std::cin.clear();
+
+    // Throw away invalid characters
     
   }
   
