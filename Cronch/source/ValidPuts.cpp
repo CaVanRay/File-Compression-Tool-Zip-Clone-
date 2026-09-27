@@ -96,6 +96,7 @@ int getIntP(const std::string& prompt){
     if (std::cin >> intValue) {
         // On success, return value, breaking the loop
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        return intValue;
     }
   }
   
