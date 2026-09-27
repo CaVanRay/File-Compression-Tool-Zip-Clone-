@@ -90,7 +90,7 @@ int getIntP(const std::string& prompt){
 
   // will continuously loop until break
   while(true){
-    
+    std::cout << prompt;
   }
   
 }
