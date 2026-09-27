@@ -114,8 +114,10 @@ int getIntP(const std::string& prompt){
 // JUST ERROR
 int getInt(){
 
-  //value to grab
+  // Value to grab
   int intValue;
+
+  // Will continuously loop until break
   
 }
 
