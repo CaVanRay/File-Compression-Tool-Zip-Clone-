@@ -123,7 +123,7 @@ int getInt(){
       
       // Try reading an int
       if (std::cin >> intValue) {
-        
+          // on success, return value, breaking the loop
       }
   }
   
