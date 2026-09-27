@@ -100,6 +100,7 @@ int getIntP(const std::string& prompt){
     }
 
     // If it reaches here that means input failed
+    std::cout << "Invalid number. Please try again. \n";
     
   }
   
