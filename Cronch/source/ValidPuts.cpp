@@ -93,6 +93,9 @@ int getIntP(const std::string& prompt){
     std::cout << prompt;
 
     // Try reading an int
+    if (std::cin >> intValue) {
+      
+    }
   }
   
 }
