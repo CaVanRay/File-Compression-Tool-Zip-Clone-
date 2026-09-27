@@ -115,6 +115,7 @@ int getIntP(const std::string& prompt){
 int getInt(){
 
   //value to grab
+  int intValue;
   
 }
 
