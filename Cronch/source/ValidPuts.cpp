@@ -88,81 +88,62 @@ std::string getStringS(){
 
 // PROMPT & ERROR
 int getIntP(const std::string& prompt){
-
   // value to grab
   int intValue;
-
   // will continuously loop until break
   while(true){
     std::cout << prompt;
-
     // Try reading an int
     if (std::cin >> intValue) {
         // On success, return value, breaking the loop
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         return intValue;
     }
-
     // If it reaches here that means input failed
     std::cout << "Invalid number. Please try again. \n";
-
     // Clear input
     std::cin.clear();
-
     // Throw away invalid characters
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-  }
-  
+  } 
 }
 
 // JUST ERROR
 int getInt(){
-
   // Value to grab
   int intValue;
-
   // Will continuously loop until break
   while(true) {
-      
       // Try reading an int
       if (std::cin >> intValue) {
           // on success, return value, breaking the loop
           std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
           return intValue;
       }
-
       // if it reaches here that means input failed
       std::cout << "Invalid number. Please try again. \n";
-
       // clear input
       std::cin.clear();
-
       // Throw away invalid characters
       std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
-  
 }
 
 // SILENT COLLECTOR
 int getIntS(){
-
   // value to grab
   int intValue;
-
   // will continuously loop until break
   while(true) {
-
       // Try reading an int
       if (std::cin >> intValue) {
           // On success, return value, breaking the loop
           std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
           return intValue;
       }
-
       // if it reaches here that means input failed
       // Clear input
       std::cin.clear();
-
       // Throw away invalid characters
       std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
