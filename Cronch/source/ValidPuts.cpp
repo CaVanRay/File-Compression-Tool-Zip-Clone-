@@ -130,6 +130,8 @@ int getInt(){
 
       // if it reaches here that means input failed
       std::cout << "Invalid number. Please try again. \n";
+
+      // clear input
   }
   
 }
