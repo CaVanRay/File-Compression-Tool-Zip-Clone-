@@ -133,6 +133,8 @@ int getInt(){
 
       // clear input
       std::cin.clear();
+
+      // Throw away invalid characters
   }
   
 }
