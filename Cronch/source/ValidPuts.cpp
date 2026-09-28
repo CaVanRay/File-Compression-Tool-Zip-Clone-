@@ -30,19 +30,23 @@ in my toolbox for future programs I write
 
 // PROMPT & ERROR
 std::string getStringP(const std::string& prompt){
+  // String to grab
   std::string StringInput;
-  std::cout << prompt;
-  // Try reading a string
-  if (std::getline(std::cin, StringInput)) {
-    // on success, return value, breaking the loop
-    return StringInput;
+  // Will continuously loop until break
+  while (true) {
+    std::cout << prompt;
+    // Try reading a string
+    if (std::getline(std::cin, StringInput)) {
+      // on success, return value, breaking the loop
+      return StringInput;
+    }
+    // if it reaches here that means input failed
+    std::cout << "Input failure, please try again. \n";
+    // clear input
+    std::cin.clear();
+    // also clear the input buffer after failed getline
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
-  // if it reaches here that means input failed
-  std::cout << "Input failure, please try again. \n";
-  // clear input
-  std::cin.clear();
-  // also clear the input buffer after failed getline
-  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 // JUST ERROR
