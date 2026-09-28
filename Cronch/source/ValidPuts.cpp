@@ -52,17 +52,20 @@ std::string getStringP(const std::string& prompt){
 // JUST ERROR
 std::string getString(){
   std::string StringInput;
-  // Try reading a string
-  if (std::getline(std::cin, StringInput)) {
-    // on success, return value, breaking the loop
-    return StringInput;
+  // Will continuously loop until break
+  while (true) {
+    // Try reading a string
+    if (std::getline(std::cin, StringInput)) {
+      // on success, return value, breaking the loop
+      return StringInput;
+    }
+    // if it reaches here that means input failed
+    std::cout << "Input failure, please try again. \n";
+    // clear input
+    std::cin.clear();
+    // also clear the input buffer after failed getline
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
-  // if it reaches here that means input failed
-  std::cout << "Input failure, please try again. \n";
-  // clear input
-  std::cin.clear();
-  // also clear the input buffer after failed getline
-  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 // SILENT COLLECTOR
