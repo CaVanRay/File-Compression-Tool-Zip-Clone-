@@ -143,6 +143,7 @@ int getInt(){
 int getIntS(){
 
   // value to grab
+  int intValue;
   
 }
 
