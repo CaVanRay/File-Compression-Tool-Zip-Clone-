@@ -242,3 +242,31 @@ double getDoubleS(){
       getYNS : one with nothing (Silent collector)
 */
 
+// PROMPT & ERROR
+bool getYNP(const std::string& prompt){
+  // Value to grab
+  std::string input;
+  // Will continously loop until break
+  while(true) {
+    std::cout << prompt;
+    std::getline(std::cin, input);
+    if(input.length() == 1) {
+      char c = std::tolower(input[0]);
+      if (c == 'y')
+        return true;
+      if (c == 'n')
+        return false;
+    }
+    std::cout << "Invalid input. Please type 'y' or 'n'. \n";
+  }
+}
+
+// JUST ERROR
+bool getYN(){
+  
+}
+
+// SILENT COLLECTOR
+bool getYNS(){
+  
+}
