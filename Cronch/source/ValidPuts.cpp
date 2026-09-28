@@ -150,7 +150,7 @@ int getIntS(){
 
       // Try reading an int
       if (std::cin >> intValue) {
-        
+          // On success, return value, breaking the loop
       }
   }
 }
