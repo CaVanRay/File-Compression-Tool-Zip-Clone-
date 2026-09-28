@@ -214,7 +214,22 @@ double getDouble(){
 
 // SILENT COLLECTOR
 double getDoubleS(){
-  
+  // Value to grab
+  double dValue;
+  // Will continously loop until break
+  while (true) {
+    // Try reading a double 
+    if(std::cin >> dValue) {
+      // On success, return value, breaking the loop
+      std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+      return dValue;
+    }
+    // If it reaches here that means input failed
+    // Clear input
+    std::cin.clear();
+    //Throw away invalid characters
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  }
 }
 
 //**********************************************************************************************************************
