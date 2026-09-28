@@ -124,6 +124,7 @@ int getInt(){
       // Try reading an int
       if (std::cin >> intValue) {
           // on success, return value, breaking the loop
+          std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
       }
   }
   
