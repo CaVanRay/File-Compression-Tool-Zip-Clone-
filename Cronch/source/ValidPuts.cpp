@@ -135,6 +135,7 @@ int getInt(){
       std::cin.clear();
 
       // Throw away invalid characters
+      std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
   
 }
