@@ -171,29 +171,45 @@ int getIntS(){
 
 // PROMPT & ERROR
 double getDoubleP(const std::string& prompt){
-  // value to grab
+  // Value to grab
   double dValue;
-  // will continously loop until break
+  // Will continously loop until break
   while(true){
     std::cout << prompt;
-    //try reading a double
+    //Try reading a double
     if(std::cin >> dValue) {
-      // on success, return value, breaking the loop
+      // On success, return value, breaking the loop
       std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
       return dValue;
     }
-    // if it reaches here that means input failed
+    // If it reaches here that means input failed
     std::cout << "Invalid number. Please try again. \n";
-    // clear input
+    // Clear input
     std::cin.clear();
-    // throw away invalid characters
+    // Throw away invalid characters
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   }
 }
 
 // JUST ERROR
 double getDouble(){
-  
+  // Value to grab
+  double dValue;
+  // Will continously loop until break
+  while (true) {
+    // Try reading a double
+    if(std::cin >> dValue) {
+      // On success, return value, breaking the loop
+      std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+      return dValue;
+    }
+    // If it reaches here that means input failed
+    std::cout << "Invalid number. Please try again. \n";
+    // Clear input
+    std::cin.clear();
+    // Throw away invalid characters
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  }
 }
 
 // SILENT COLLECTOR
