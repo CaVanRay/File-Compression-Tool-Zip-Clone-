@@ -132,6 +132,7 @@ int getInt(){
       std::cout << "Invalid number. Please try again. \n";
 
       // clear input
+      std::cin.clear();
   }
   
 }
