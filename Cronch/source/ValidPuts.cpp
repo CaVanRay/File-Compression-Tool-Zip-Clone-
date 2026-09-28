@@ -159,6 +159,7 @@ int getIntS(){
       std::cout << "Invalid number. Please try again. \n";
 
       // Clear input
+      std::cin.clear();
   }
 }
 
