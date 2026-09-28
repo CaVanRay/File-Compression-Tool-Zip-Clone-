@@ -149,6 +149,9 @@ int getIntS(){
   while(true) {
 
       // Try reading an int
+      if (std::cin >> intValue) {
+        
+      }
   }
 }
 
