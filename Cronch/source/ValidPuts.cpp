@@ -156,8 +156,6 @@ int getIntS(){
       }
 
       // if it reaches here that means input failed
-      std::cout << "Invalid number. Please try again. \n";
-
       // Clear input
       std::cin.clear();
 
