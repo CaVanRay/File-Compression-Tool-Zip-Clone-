@@ -160,6 +160,8 @@ int getIntS(){
 
       // Clear input
       std::cin.clear();
+
+      // Throw away invalid characters
   }
 }
 
