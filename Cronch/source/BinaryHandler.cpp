@@ -10,3 +10,5 @@ the Binary Handler file is a collection of functions for collecting, organizing,
 form data
 
 **********************************************************************************************************************/
+
+#include "cronchHeaders.h"
