@@ -1,1 +1,12 @@
+/**********************************************************************************************************************
+Title: Binary Handler
+Author: Cavan Ray Theiss
+Date: 09/29/2026
+Description/Purpose:
 
+Keeping this one off on its own for now. I wanna keep it clean and simple while I work my way through it.
+
+the Binary Handler file is a collection of functions for collecting, organizing, and manipulating binary 
+form data
+
+**********************************************************************************************************************/
