@@ -18,6 +18,7 @@ form data
 //**********************************************************************************************************************
 
 std::vector<uint8_t> readFileAsBinary(const std::string& filename){
+    // Open file in binary mode
   
 }
 
