@@ -20,6 +20,7 @@ form data
 std::vector<uint8_t> readFileAsBinary(const std::string& filename){
     // Open file in binary mode
     std::ifstream file(filename, std::ios::binary | std::ios::ate);
+    // Check if file was successfully opened
     if (!file.is_open()){
         
     }
