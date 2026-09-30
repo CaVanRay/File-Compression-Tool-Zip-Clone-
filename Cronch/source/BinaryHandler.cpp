@@ -33,6 +33,8 @@ std::vector<uint8_t> readFileAsBinary(const std::string& filename){
 
     // Resize vector to fit file content
     std::vector<uint8_t> buffer(static_cast<size_t>(size));
+
+    // Read entire file into buffer
 }
 
 //**********************************************************************************************************************
