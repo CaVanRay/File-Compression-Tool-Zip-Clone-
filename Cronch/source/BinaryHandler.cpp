@@ -46,7 +46,7 @@ std::vector<uint8_t> readFileAsBinary(const std::string& filename){
 // Organizer/Counter
 //**********************************************************************************************************************
 
-byteFrequencyCounter(){
+void byteFrequencyCounter(){
   
 }
 
