@@ -47,7 +47,10 @@ std::vector<uint8_t> readFileAsBinary(const std::string& filename){
 //**********************************************************************************************************************
 
 void byteFrequencyCounter(const std::vector<uint8_t>& data, uint32_t freq[256]){
-  std::memset(freq, 0, sizeof(uint32_t) * 256);
+    std::memset(freq, 0, sizeof(uint32_t) * 256);
+    for (uint8_t byte : data){
+        ++freq[byte];
+    }
 }
 
 //**********************************************************************************************************************
