@@ -2,7 +2,7 @@
 
 //****************************************************
 
-std::vector<uint8_t> readFileAsBinary(){  
+std::vector<uint8_t> readFileAsBinary(const std::string& filename){  
 }
 
 byteFrequencyCounter(){
