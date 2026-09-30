@@ -29,6 +29,7 @@ std::vector<uint8_t> readFileAsBinary(const std::string& filename){
 
     // Get file size
     std::streamsize size + file.tellg();
+    file.seekg(0, std::ios::beg);
 }
 
 //**********************************************************************************************************************
