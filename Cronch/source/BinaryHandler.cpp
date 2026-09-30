@@ -37,6 +37,8 @@ std::vector<uint8_t> readFileAsBinary(const std::string& filename){
     // Read entire file into buffer
     if (file.read(reinterpret_cast<char*>(buffer.data()), size){
         return buffer;
+    } else {
+        
     }
 }
 
