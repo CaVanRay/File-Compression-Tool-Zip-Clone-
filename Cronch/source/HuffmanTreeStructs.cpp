@@ -12,8 +12,8 @@ all of the structs and classes for building a Huffman tree
 
 struct HuffmanNode {
 
-    uint32_t freq;
-    uint8_t symbol; // Valid only for leaves
+    uint32_t freq; // 4 Bytes (32 bits)
+    uint8_t symbol; // 1 Byte (8 bits)
     bool is_leaf;
     std::unique_ptr<HuffmanNode> left;
     std::unique_ptr<HuffmanNode> right;
