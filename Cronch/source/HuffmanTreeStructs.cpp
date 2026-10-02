@@ -16,5 +16,6 @@ struct HuffmanNode {
     uint8_t symbol; // Valid only for leaves
     bool is_leaf;
     std::unique_ptr<HuffmanNode> left;
+    std::unique_ptr<HuffmanNode> right;
 
 }
