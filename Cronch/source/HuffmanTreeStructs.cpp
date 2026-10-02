@@ -12,4 +12,6 @@ all of the structs and classes for building a Huffman tree
 
 struct HuffmanNode {
 
+    uint32_t freq;
+
 }
