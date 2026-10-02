@@ -24,3 +24,6 @@ struct HuffmanNode {
 };
 
 // Min-heap: compare by frequency (smaller = higher priority)
+struct Compare {
+
+};
