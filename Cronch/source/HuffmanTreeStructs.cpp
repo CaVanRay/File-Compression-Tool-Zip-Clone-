@@ -13,6 +13,6 @@ all of the structs and classes for building a Huffman tree
 struct HuffmanNode {
 
     uint32_t freq;
-    uint8_t symbol;
+    uint8_t symbol; // Valid only for leaves
 
 }
