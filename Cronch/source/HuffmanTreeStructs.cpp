@@ -10,3 +10,6 @@ all of the structs and classes for building a Huffman tree
 
 #include "cronchHeaders.h"
 
+struct HuffmanNode {
+
+}
