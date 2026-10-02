@@ -18,4 +18,6 @@ struct HuffmanNode {
     std::unique_ptr<HuffmanNode> left;
     std::unique_ptr<HuffmanNode> right;
 
+    HuffmanNode(uint32_t f, uint8_t s) : freq(f), symbol(s), is_leaf(true) {}
+
 }
