@@ -25,5 +25,5 @@ struct HuffmanNode {
 
 // Min-heap: compare by frequency (smaller = higher priority)
 struct Compare {
-
+    bool operator()(const std::unique_ptr<HuffmanNode>& a, const std::unique_ptr<HuffmanNode>& b) const {}
 };
