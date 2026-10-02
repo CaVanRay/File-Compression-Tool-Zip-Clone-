@@ -19,6 +19,7 @@
 #include "ValidPuts.h"
 #include "CronchCompile.h"
 #include "CronchDeCompile.h"
+#include "HuffmanTreeStructs.h"
 #include "HuffmanTreeBuilder.h"
 
 //************************************************
