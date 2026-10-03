@@ -41,5 +41,7 @@ PQ pq;
 
 // Push leaves with non-zero frequency
 for (int i = 0; i < 256; ++i){
-    
+    if (freq[i] > 0) {
+        
+    }
 }
