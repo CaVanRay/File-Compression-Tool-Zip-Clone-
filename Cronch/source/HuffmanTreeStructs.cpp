@@ -42,6 +42,6 @@ PQ pq;
 // Push leaves with non-zero frequency
 for (int i = 0; i < 256; ++i){
     if (freq[i] > 0) {
-        
+        pq.push(std::make_unique<HuffmanNode>(freq[i], static_cast<uint8_t>)));
     }
 }
