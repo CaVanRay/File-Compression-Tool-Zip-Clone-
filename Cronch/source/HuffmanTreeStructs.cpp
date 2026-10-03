@@ -54,5 +54,5 @@ if (pq.size() == 1) {
 
 // Merge until one node remains
 while (pq.size() > 1) {
-    
+    auto lo = std::move(pq.top()); pq.pop();
 }
