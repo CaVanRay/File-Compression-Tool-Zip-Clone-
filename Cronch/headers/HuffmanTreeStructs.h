@@ -8,4 +8,6 @@ struct HuffmanNode{
 
 struct Compare{
 
+    bool operator();
+
 };
