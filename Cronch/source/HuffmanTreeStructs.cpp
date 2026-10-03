@@ -51,3 +51,5 @@ if (pq.size() == 1) {
     auto leaf = std::move(pq.top()); pq.pop();
     return std::make_unique<HuffmanNode>(leaf->freq, std::move(leaf), nullptr);
 }
+
+// Merge until one node remains
