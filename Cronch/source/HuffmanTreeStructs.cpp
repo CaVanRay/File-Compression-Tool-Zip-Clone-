@@ -58,3 +58,5 @@ while (pq.size() > 1) {
     auto hi = std::move(pq.top()); pq.pop();
     pq.push(std::make_unique<HuffmanNode>(lo->freq + hi->freq, std::move(lo), std::move(hi)));
 }
+
+return std::move(pq.top());
