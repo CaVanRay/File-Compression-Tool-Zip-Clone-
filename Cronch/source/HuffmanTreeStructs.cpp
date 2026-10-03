@@ -48,5 +48,5 @@ for (int i = 0; i < 256; ++i){
 
 // Handle edge case: file with only one distinct byte
 if (pq.size() == 1) {
-    
+    auto leaf = std::move(pq.top()); pq.pop();
 }
