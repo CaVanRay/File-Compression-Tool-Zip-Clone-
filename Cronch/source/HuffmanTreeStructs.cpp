@@ -38,3 +38,5 @@ std::unique_ptr<HuffmanNode> build_huffman_tree(const uint32_t freq[256]){
     >;
 
 PQ pq;
+
+// Push leaves with non-zero frequency
