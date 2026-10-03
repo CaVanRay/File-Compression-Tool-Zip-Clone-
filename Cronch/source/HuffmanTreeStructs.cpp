@@ -45,3 +45,5 @@ for (int i = 0; i < 256; ++i){
         pq.push(std::make_unique<HuffmanNode>(freq[i], static_cast<uint8_t>)));
     }
 }
+
+// Handle edge case: file with only one distinct byte
