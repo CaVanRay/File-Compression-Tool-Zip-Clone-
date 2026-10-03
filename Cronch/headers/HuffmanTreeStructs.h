@@ -2,5 +2,10 @@
 
 //*************************************************************
 
-struct HuffmanNode;
-struct Compare;
+struct HuffmanNode{
+
+};
+
+struct Compare{
+
+};
