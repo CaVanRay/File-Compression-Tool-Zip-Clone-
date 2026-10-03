@@ -53,3 +53,6 @@ if (pq.size() == 1) {
 }
 
 // Merge until one node remains
+while (pq.size() > 1) {
+    
+}
