@@ -1,8 +1,20 @@
 
 
+This is getting out of hand, I'm hoping I'll have more luck
+keeping everything in line if I start maintaining a file map
+
 
 Headers:
 
 
 
 Sources:
+
+  BinaryHandler.cpp
+  Cronch.cpp
+  CronchCompile.cpp
+  CronchDeCompile.cpp
+  HuffmanTreeBuilder.cpp
+  HuffmanTreeStructs.cpp
+  UsePuts.cpp
+  ValidPuts.cpp
