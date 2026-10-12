@@ -5,25 +5,43 @@ keeping everything in line if I start maintaining a file map
 
 
 Headers:
-
+  |
   BinaryHandler.h
+  |
+    -  readFileAsBinary()
+    -  byteFrequencyCounter()
+  |
   CronchCompile.h
+  |
   CronchDeCompile.h
+  |
   HuffmanTreeBuilder.h
+  |
   HuffmanTreeStructs.h
+  |
   UsePuts.h
+  |
   ValidPuts.h
+  |
   cronchHeaders.h
-
+  |
 
 
 Sources:
 
   BinaryHandler.cpp
+  |
   Cronch.cpp
+  |
   CronchCompile.cpp
+  |
   CronchDeCompile.cpp
+  |
   HuffmanTreeBuilder.cpp
+  |
   HuffmanTreeStructs.cpp
+  |
   UsePuts.cpp
+  |
   ValidPuts.cpp
+  |
