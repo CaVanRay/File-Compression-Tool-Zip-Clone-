@@ -13,6 +13,9 @@ Headers:
   |
   CronchCompile.h
   |
+    -  read_binary_file()
+    -  count_frequencies()
+  |
   CronchDeCompile.h
   |
   HuffmanTreeBuilder.h
