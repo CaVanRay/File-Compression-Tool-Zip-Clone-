@@ -37,6 +37,10 @@ Headers:
     - getStringP()
     - getString()
     - getStringS()
+    - getIntP()
+    - getInt()
+    - getIntS()
+    - 
   |
   cronchHeaders.h--------------------|
   |
