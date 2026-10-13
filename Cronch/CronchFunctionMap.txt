@@ -40,7 +40,9 @@ Headers:
     - getIntP()
     - getInt()
     - getIntS()
-    - 
+    - getDoubleP()
+    - getDouble()
+    - getDoubleS()
   |
   cronchHeaders.h--------------------|
   |
