@@ -12,38 +12,3 @@ Main file for compiling sequence/functions
 
 //******************************************************************
 
-// Function for reading the file into a vector as binary
-std::vector<uint8_t> read_binary_file(const std::string& filename){
-
-  // Open file in binary mode
-  std::ifstream file(filename, std::ios::binary | std::ios::ate);
-
-  if (!file.is_open()){
-    throw std::runtime_error("Failed to open file: " + filename);
-  }
-
-  // Get file size
-  std::streamsize size + file.tellg();
-  file.seekg(0, std::ios::beg);
-
-  // Resize vector to fit file content
-  std::vector<uint8_t> buffer(static_cast<size_t>(size));
-
-  // Read entire file into buffer
-  if (file.read(reinterpret_cast<char*>(buffer.data()), size)){
-      return buffer;
-  }  else {
-      throw std::runtime_error("Failed to read file: " + filename);
-  }
-}
-
-//******************************************************************
-
-void count_frequencies(const std::vector<uint8_t>& data, uint32_t freq[256]) {
-    std::memset(freq, 0, sizeof(uint32_t) * 256);
-    for (uint8_t byte : data) {
-        ++freq[byte];
-    }
-}
-
-//******************************************************************
