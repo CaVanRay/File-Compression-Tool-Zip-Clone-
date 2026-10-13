@@ -6,7 +6,7 @@ keeping everything in line if I start maintaining a file map
 
 Headers:
   |
-  BinaryHandler.h
+  BinaryToolBox.h
   |
     -  readFileAsBinary()
     -  byteFrequencyCounter()
@@ -61,6 +61,7 @@ Headers:
     // custom header files:
     -  #include "UsePuts.h"
     -  #include "ValidPuts.h"
+    -  #include "BinaryToolBox.h"
     -  #include "CronchCompile.h"
     -  #include "CronchDeCompile.h"
     -  #include "HuffmanTreeStructs.h"
@@ -70,7 +71,7 @@ Headers:
 
 Sources:
 
-  BinaryHandler.cpp
+  BinaryToolBox.cpp
   |
   Cronch.cpp
   |
