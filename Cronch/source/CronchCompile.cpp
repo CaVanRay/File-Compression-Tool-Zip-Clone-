@@ -12,3 +12,6 @@ Main file for compiling sequence/functions
 
 //******************************************************************
 
+void CronchCompile(){
+    
+}
