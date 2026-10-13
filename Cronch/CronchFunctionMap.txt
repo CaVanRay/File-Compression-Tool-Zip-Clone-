@@ -43,6 +43,9 @@ Headers:
     - getDoubleP()
     - getDouble()
     - getDoubleS()
+    - getYNP()
+    - getYN()
+    - getYNS()
   |
   cronchHeaders.h--------------------|
   |
