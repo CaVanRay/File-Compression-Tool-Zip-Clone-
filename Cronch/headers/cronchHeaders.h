@@ -17,6 +17,7 @@
 // custom header files:
 #include "UsePuts.h"
 #include "ValidPuts.h"
+#include "BinaryToolBox.h"
 #include "CronchCompile.h"
 #include "CronchDeCompile.h"
 #include "HuffmanTreeStructs.h"
