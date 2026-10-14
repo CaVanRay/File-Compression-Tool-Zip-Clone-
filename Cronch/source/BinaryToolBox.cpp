@@ -14,7 +14,7 @@ form data
 #include "cronchHeaders.h"
 
 //**********************************************************************************************************************
-// File Handler/Reader
+// Reads the file as Binary into a vector of digits
 //**********************************************************************************************************************
 
 std::vector<uint8_t> readFileAsBinary(const std::string& filename){
