@@ -43,7 +43,7 @@ std::vector<uint8_t> readFileAsBinary(const std::string& filename){
 }
 
 //**********************************************************************************************************************
-// Organizer/Counter
+// counts the number of times each byte appears throughout the whole file
 //**********************************************************************************************************************
 
 void byteFrequencyCounter(const std::vector<uint8_t>& data, uint32_t freq[256]){
