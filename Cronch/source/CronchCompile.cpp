@@ -20,5 +20,8 @@ void CronchCompile(){
     //    of frequencies
     // 4. Use the vector of bytes with matching array of frequencies
     //    to build a huffman tree 
+    // 5. take the smallest 2 frequencies, make a node for each, with
+    //    the smaller number (if not tied) marked "left" and the other 
+    //    marked "right"
 
 }
