@@ -1,5 +1,5 @@
 /**********************************************************************************************************************
-Title: Binary Handler
+Title: Binary Tool Box
 Author: Cavan Ray Theiss
 Date: 10/14/2026
 Description/Purpose:
