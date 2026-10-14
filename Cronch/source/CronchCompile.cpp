@@ -23,5 +23,8 @@ void CronchCompile(){
     // 5. take the smallest 2 frequencies, make a node for each, with
     //    the smaller number (if not tied) marked "left" and the other 
     //    marked "right"
+    // 6. remove these numbers from the list of frequencies but add 
+    //    their sum
+    
 
 }
