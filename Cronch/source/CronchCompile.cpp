@@ -25,6 +25,6 @@ void CronchCompile(){
     //    marked "right"
     // 6. remove these numbers from the list of frequencies but add 
     //    their sum
-    
+    // 7. repeat steps 5 & 6 until all numbers are added together
 
 }
