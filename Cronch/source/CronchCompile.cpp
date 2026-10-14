@@ -14,6 +14,10 @@ Main file for compiling sequence/functions
 
 void CronchCompile(){
 
-    // First get file to compile from user
-    // creat a vector set it to = readFileAsBinary(file)
+    // 1. First get file to compile from user
+    // 2. creat a vector set it to = readFileAsBinary(file)
+    // 3. send vector to byteFrequencyCounter() along with an array 
+    //    of frequencies
+    //
+
 }
