@@ -15,5 +15,5 @@ Main file for compiling sequence/functions
 void CronchCompile(){
 
     // First get file to compile from user
-    
+    // creat a vector set it to = readFileAsBinary(file)
 }
