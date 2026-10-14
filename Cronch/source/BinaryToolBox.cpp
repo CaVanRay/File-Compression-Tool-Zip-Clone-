@@ -1,13 +1,10 @@
 /**********************************************************************************************************************
 Title: Binary Handler
 Author: Cavan Ray Theiss
-Date: 09/29/2026
+Date: 10/14/2026
 Description/Purpose:
 
-Keeping this one off on its own for now. I wanna keep it clean and simple while I work my way through it.
-
-the Binary Handler file is a collection of functions for collecting, organizing, and manipulating binary 
-form data
+Functions for getting the binary code and frequency maps of files to compress/decompress
 
 **********************************************************************************************************************/
 
@@ -53,6 +50,4 @@ void byteFrequencyCounter(const std::vector<uint8_t>& data, uint32_t freq[256]){
     }
 }
 
-//**********************************************************************************************************************
-// 
 //**********************************************************************************************************************
