@@ -28,5 +28,7 @@ void CronchCompile(){
     // 7. repeat steps 5 & 6 until all numbers are added together
     // 8. using pointers traverse the tree from the sum to each byte 
     //    tracking how many lefts and rights it takes
+    //    each left is '0' and each right is '1', the path combined
+    //    creates the items ID number
 
 }
