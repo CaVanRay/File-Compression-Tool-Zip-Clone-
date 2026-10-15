@@ -30,5 +30,7 @@ void CronchCompile(){
     //    tracking how many lefts and rights it takes
     //    each left is '0' and each right is '1', the path combined
     //    creates the items ID number
+    // 9. using each bytes ID number create a copy of the original
+    //    vector but replace each byte with its ID number
 
 }
