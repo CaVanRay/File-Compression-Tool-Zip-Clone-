@@ -32,5 +32,6 @@ void CronchCompile(){
     //    creates the items ID number
     // 9. using each bytes ID number create a copy of the original
     //    vector but replace each byte with its ID number
+    //10. write the frequency map to a file as a header
 
 }
