@@ -11,5 +11,6 @@ main file for de-compiling sequence/function
 #include "cronchHeaders.h"
 
 void CronchDeCompile(){
-    
+
+    // 1. First read the compile file
 }
