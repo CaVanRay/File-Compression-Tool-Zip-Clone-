@@ -36,6 +36,6 @@ void CronchCompile(){
     //    a multiple of 8
     //11. write the frequency map to a file as a header
     //12. add the string of all the vector items to the end
-    //13. 
+    //13. Theres more to it, but I think that's enough
 
 }
