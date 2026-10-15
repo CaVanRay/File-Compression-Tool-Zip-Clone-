@@ -13,4 +13,5 @@ main file for de-compiling sequence/function
 void CronchDeCompile(){
 
     // 1. First read the compile file
+    // 2. use the frequency map
 }
