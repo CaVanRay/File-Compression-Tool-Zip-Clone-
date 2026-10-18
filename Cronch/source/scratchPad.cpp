@@ -48,5 +48,6 @@
 /***************************************************************************
 *
 *      Write original binary data to file but replace each original with 
+*      new IDs created with tree
 *      
 ***************************************************************************/
