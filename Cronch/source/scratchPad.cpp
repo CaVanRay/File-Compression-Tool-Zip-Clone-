@@ -30,6 +30,8 @@ std::vector<byte> fileReader(std::string fileToOpen){
 // input: vector of bytes
 // output: array of frequencies
 
+std::array<int, 256>
+
 
 /***************************************************************************
 *
