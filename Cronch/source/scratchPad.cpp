@@ -110,7 +110,7 @@ void writeHeader(std::array<int>& fMap, std::string& fileName){
 // input: original binary vector list & file name for compressed data
 // output: changes saved in file, void output
 
-void writeBodyAsIDs(){
+void writeBodyAsIDs(std::vector<byte>& originalData, std::string& fileName){
   
 }
 
