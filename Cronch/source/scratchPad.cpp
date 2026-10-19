@@ -18,6 +18,9 @@
 // input required: file name
 // output: Vector of bytes
 
+std::vector<byte> fileReader(std::string fileToOpen){
+  
+}
 
 /***************************************************************************
 *
