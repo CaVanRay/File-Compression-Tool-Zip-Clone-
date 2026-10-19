@@ -93,7 +93,7 @@ void createFile(){
 *      
 ***************************************************************************/
 
-// input:
+// input: frequency map & file name
 // output:
 
 void writeHeader(){
