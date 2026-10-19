@@ -108,7 +108,7 @@ void writeHeader(std::array<int>& fMap, std::string& fileName){
 ***************************************************************************/
 
 // input: original binary vector list & file name for compressed data
-// output:
+// output: changes saved in file, void output
 
 /***************************************************************************
 *
