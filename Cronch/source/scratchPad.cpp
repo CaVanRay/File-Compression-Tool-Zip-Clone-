@@ -54,6 +54,9 @@ struct treeNode{
 *      
 ***************************************************************************/
 
+// input: will be created using the previously created treeNodes
+
+
 /***************************************************************************
 *
 *      Using completed tree create an ID for each byte in the huffman tree
