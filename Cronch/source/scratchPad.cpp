@@ -57,6 +57,9 @@ struct treeNode{
 // input: will be created using the previously created treeNodes
 // output: structure that tracks whether path is left or right
 
+struct treeBranch{
+
+};
 
 /***************************************************************************
 *
