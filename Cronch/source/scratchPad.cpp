@@ -94,7 +94,7 @@ void createFile(){
 ***************************************************************************/
 
 // input: frequency map & file name
-// output:
+// output: changes saved in file, void output
 
 void writeHeader(){
   
