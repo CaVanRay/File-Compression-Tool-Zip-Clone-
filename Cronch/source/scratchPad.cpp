@@ -136,3 +136,7 @@ void fillInFile(){
 
 // input: file name for compressed data
 // output: void output, just adding footer
+
+void writeFooter(){
+  
+}
