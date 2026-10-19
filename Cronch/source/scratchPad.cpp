@@ -44,7 +44,9 @@ std::array<int, 256> frequencyMappin(std::vector<byte>& readIn){
 // output: structure that tracks original byte, eventual ID, connections to 
 //         other nodes
 
+struct treeNode{
 
+};
 
 /***************************************************************************
 *
