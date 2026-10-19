@@ -68,7 +68,7 @@ struct treeBranch{
 ***************************************************************************/
 
 // input: treeNode 
-// output:
+// output: ID number
 
 
 
