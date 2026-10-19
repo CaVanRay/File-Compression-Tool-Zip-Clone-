@@ -124,6 +124,10 @@ void writeBodyAsIDs(std::vector<byte>& originalData, std::string& fileName){
 // input: file name for compressed data
 // output: void output, just checking file size and filling in with 0's
 
+void fillInFile(){
+  
+}
+
 /***************************************************************************
 *
 *      
