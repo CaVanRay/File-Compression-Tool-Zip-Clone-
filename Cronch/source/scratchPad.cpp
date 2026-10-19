@@ -40,6 +40,8 @@ std::array<int, 256> frequencyMappin(std::vector<byte>& readIn){
 *      
 ***************************************************************************/
 
+// input: a byte from vector list and a matching int from array
+
 /***************************************************************************
 *
 *      Stucture for each limb on the huffman tree? not sure I'll need this
