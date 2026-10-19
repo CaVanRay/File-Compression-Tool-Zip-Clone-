@@ -93,7 +93,7 @@ void createFile(){
 *      
 ***************************************************************************/
 
-// input: frequency map & file name
+// input: frequency map & file name for compressed data
 // output: changes saved in file, void output
 
 void writeHeader(std::array<int>& fMap, std::string& fileName){
@@ -107,7 +107,7 @@ void writeHeader(std::array<int>& fMap, std::string& fileName){
 *      
 ***************************************************************************/
 
-// input:
+// input: original binary vector list & file name for compressed data
 // output:
 
 /***************************************************************************
