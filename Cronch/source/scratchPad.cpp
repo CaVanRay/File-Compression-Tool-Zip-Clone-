@@ -60,6 +60,7 @@ struct treeNode{
 struct treeBranch{
 
 treeNode* top;
+treeNode* bottom;
 
 };
 
