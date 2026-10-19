@@ -15,7 +15,7 @@
 *      
 ***************************************************************************/
 
-// input required: file name
+// input: file name
 // output: Vector of bytes
 
 std::vector<byte> fileReader(std::string fileToOpen){
@@ -27,6 +27,8 @@ std::vector<byte> fileReader(std::string fileToOpen){
 *      Count frequencies
 *      
 ***************************************************************************/
+// input
+
 
 /***************************************************************************
 *
