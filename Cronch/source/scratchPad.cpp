@@ -110,6 +110,10 @@ void writeHeader(std::array<int>& fMap, std::string& fileName){
 // input: original binary vector list & file name for compressed data
 // output: changes saved in file, void output
 
+void writeBodyAsIDs(){
+  
+}
+
 /***************************************************************************
 *
 *      fill in end with 0's until number of digits is a multiplication of
