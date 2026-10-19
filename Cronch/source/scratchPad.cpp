@@ -44,6 +44,8 @@ std::array<int, 256> frequencyMappin(std::vector<byte>& readIn){
 // output: structure that tracks original byte, eventual ID, connections to 
 //         other nodes
 
+
+
 /***************************************************************************
 *
 *      Stucture for each limb on the huffman tree? not sure I'll need this
