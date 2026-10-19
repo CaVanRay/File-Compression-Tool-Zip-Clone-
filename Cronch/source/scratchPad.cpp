@@ -27,7 +27,7 @@ std::vector<byte> fileReader(std::string fileToOpen){
 *      Count frequencies
 *      
 ***************************************************************************/
-// input
+// input: vector of bytes
 
 
 /***************************************************************************
