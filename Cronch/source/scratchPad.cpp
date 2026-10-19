@@ -135,4 +135,4 @@ void fillInFile(){
 ***************************************************************************/
 
 // input: file name for compressed data
-// output:
+// output: void output, just adding footer
