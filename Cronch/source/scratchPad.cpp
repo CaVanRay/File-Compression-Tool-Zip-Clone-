@@ -47,7 +47,7 @@ std::array<int, 256> frequencyMappin(std::vector<byte>& readIn){
 struct treeNode{
 
 byte ogNumber;
-
+uint32_t newID;
 treeBranch* top;
 treeBranch* bottom;
 
