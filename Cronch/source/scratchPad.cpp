@@ -134,5 +134,5 @@ void fillInFile(){
 *      
 ***************************************************************************/
 
-// input:
+// input: file name for compressed data
 // output:
