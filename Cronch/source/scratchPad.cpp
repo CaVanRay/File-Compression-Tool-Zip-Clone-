@@ -96,7 +96,7 @@ void createFile(){
 // input: frequency map & file name
 // output: changes saved in file, void output
 
-void writeHeader(){
+void writeHeader(std::array<int>& fMap, std::string& fileName){
   
 }
 
