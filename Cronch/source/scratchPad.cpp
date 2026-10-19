@@ -96,6 +96,10 @@ void createFile(){
 // input:
 // output:
 
+void writeHeader(){
+  
+}
+
 /***************************************************************************
 *
 *      Write original binary data to file but replace each original with 
