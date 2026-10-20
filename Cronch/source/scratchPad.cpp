@@ -24,6 +24,7 @@ std::vector<std::byte> fileReader(const std::string& fileToOpen){
     if(!file) throw std::runtime_error("Cannot open file");
 
     auto size = file.tellg();
+    if (size < 0) throw std::runtime_error("Cannot determine file size");
     file.seekg(0, std::ios::beg);
 
     std::vector<std::byte> fileInBytes(static_cast<size_t>(size));
