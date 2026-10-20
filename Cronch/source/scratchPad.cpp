@@ -20,6 +20,7 @@
 
 std::vector<byte> fileReader(std::string fileToOpen){
     std::vector<byte> fileInBytes;
+    ifstream
 }
 
 /***************************************************************************
