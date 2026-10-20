@@ -25,6 +25,8 @@ std::vector<std::byte> fileReader(const std::string& fileToOpen){
 
     auto size = file.tellg();
     file.seekg(0, std::ios::beg);
+
+    std::vector<std::byte> fileInBytes
     
     return 0;
 }
