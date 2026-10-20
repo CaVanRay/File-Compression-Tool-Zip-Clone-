@@ -21,6 +21,10 @@
 std::vector<byte> fileReader(std::string fileToOpen){
     std::vector<byte> fileInBytes;
     std::ifstream file(fileToOpen, std::ios::binary);
+
+    if(file.is_open()){
+        
+    }
 }
 
 /***************************************************************************
