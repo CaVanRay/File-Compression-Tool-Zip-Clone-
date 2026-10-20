@@ -19,10 +19,11 @@
 // output: Vector of bytes
 
 std::vector<std::byte> fileReader(const std::string& fileToOpen){
-    std::vector<std::byte> fileInBytes;
+    
     std::ifstream file(fileToOpen, std::ios::binary | std::ios::ate);
     if(!file) throw std::runtime_error("Cannot open file");
-        
+
+    auto size = file.tellg();
     return 0;
 }
 
