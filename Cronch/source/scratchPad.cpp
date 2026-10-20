@@ -27,6 +27,7 @@ std::vector<byte> fileReader(std::string fileToOpen){
     }else{
         std::cerr << "Unable to open file " << fileToOpen << "\n";
     }
+    return 0;
 }
 
 /***************************************************************************
