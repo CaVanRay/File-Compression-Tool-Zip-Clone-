@@ -27,6 +27,7 @@ std::vector<std::byte> fileReader(const std::string& fileToOpen){
     file.seekg(0, std::ios::beg);
 
     std::vector<std::byte> fileInBytes(static_cast<size_t>(size));
+    file.read(
     
     return 0;
 }
