@@ -19,7 +19,7 @@
 // output: Vector of bytes
 
 std::vector<std::byte> fileReader(const std::string& fileToOpen){
-    std::vector<byte> fileInBytes;
+    std::vector<std::byte> fileInBytes;
     std::ifstream file(fileToOpen, std::ios::binary);
 
     if(file.is_open()){
