@@ -28,7 +28,7 @@ std::vector<std::byte> fileReader(const std::string& fileToOpen){
 
     std::vector<std::byte> fileInBytes(static_cast<size_t>(size));
     file.read(reinterpret_cast<char*>(fileInBytes.data()), size);
-    fileInBytes.resize(file.gcount());
+    fileInBytes.resize(file.gcount()); // in case of short read
     
     return 0;
 }
