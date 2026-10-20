@@ -21,13 +21,8 @@
 std::vector<std::byte> fileReader(const std::string& fileToOpen){
     std::vector<std::byte> fileInBytes;
     std::ifstream file(fileToOpen, std::ios::binary | std::ios::ate);
-
-    if(file.is_open()){
-
-        return fileInBytes;
-    }else{
-        std::cerr << "Unable to open file " << fileToOpen << "\n";
-    }
+    if(!file) throw std::runtime_error("Cannot open file");
+        
     return 0;
 }
 
