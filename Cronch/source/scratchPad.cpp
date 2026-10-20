@@ -18,7 +18,7 @@
 // input: file name
 // output: Vector of bytes
 
-std::vector<std::byte> fileReader(std::string fileToOpen){
+std::vector<std::byte> fileReader(const std::string& fileToOpen){
     std::vector<byte> fileInBytes;
     std::ifstream file(fileToOpen, std::ios::binary);
 
