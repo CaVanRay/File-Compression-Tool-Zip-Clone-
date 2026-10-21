@@ -47,7 +47,7 @@ std::array<size_t, 256> frequencyMappin(const std::vector<std::byte>& fileInByte
     std::array<size_t, 256> freq{}; // zero-initialized
     for (auto smolByte : fileInBytes)
         ++freq[static_cast<size_t>(smolByte)];
-  
+    return freq;
 }
 
 /***************************************************************************
