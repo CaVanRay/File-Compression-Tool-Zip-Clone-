@@ -64,7 +64,7 @@ struct treeNode{
 
 byte ogNumber;
 treeNode* left;
-treeBranch* right;
+treeNode* right;
 
 };
 
