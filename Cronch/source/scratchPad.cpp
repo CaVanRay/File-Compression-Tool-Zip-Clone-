@@ -71,6 +71,16 @@ treeNode* right = nullptr;
 
 /***************************************************************************
 *
+*      Build tree
+*      
+***************************************************************************/
+
+void treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<size_t, 256>& frequencyMap){
+    
+}
+
+/***************************************************************************
+*
 *      Using completed tree create an ID for each byte in the huffman tree
 *      
 ***************************************************************************/
