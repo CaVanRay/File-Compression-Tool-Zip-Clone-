@@ -62,7 +62,7 @@ std::array<size_t, 256> frequencyMappin(const std::vector<std::byte>& fileInByte
 
 struct treeNode{
 
-byte ogNumber;
+std::byte ogNumber;
 treeNode* left;
 treeNode* right;
 
