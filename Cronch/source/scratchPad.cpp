@@ -80,8 +80,6 @@ treeNode* right;
 
 struct treeBranch{
 
-bool isLeft;
-
 /***************************************************************************
 *
 *      Using completed tree create an ID for each byte in the huffman tree
