@@ -84,8 +84,6 @@ bool isLeft;
 treeNode* top;
 treeNode* bottom;
 
-};
-
 /***************************************************************************
 *
 *      Using completed tree create an ID for each byte in the huffman tree
