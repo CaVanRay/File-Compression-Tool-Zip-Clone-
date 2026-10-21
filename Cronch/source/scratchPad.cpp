@@ -78,8 +78,6 @@ treeNode* right;
 // input: will be created using the previously created treeNodes
 // output: structure that tracks whether path is left or right
 
-struct treeBranch{
-
 /***************************************************************************
 *
 *      Using completed tree create an ID for each byte in the huffman tree
