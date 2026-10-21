@@ -81,7 +81,6 @@ treeNode* right;
 struct treeBranch{
 
 bool isLeft;
-treeNode* top;
 
 /***************************************************************************
 *
