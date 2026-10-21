@@ -44,7 +44,7 @@ std::vector<std::byte> fileReader(const std::string& fileToOpen){
 
 std::array<size_t, 256> frequencyMappin(const std::vector<std::byte>& fileInBytes){
 
-    
+    std::array<size_t, 256>
   
 }
 
