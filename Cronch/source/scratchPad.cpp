@@ -65,7 +65,7 @@ struct treeNode{
 size_t freq; // frequency weight (for building the tree)
 std::byte ogNumber; // only needed for leaves, internal nodes don't have an original byte
 treeNode* left = nullptr;
-treeNode* right;
+treeNode* right = nullptr;
 
 };
 
