@@ -158,6 +158,6 @@ void fillInFile(std::string& fileName){
 // input: file name for compressed data
 // output: void output, just adding footer
 
-void writeFooter(){
+void writeFooter(std::string& fileName){
   
 }
