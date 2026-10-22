@@ -101,7 +101,7 @@ std::vector<uint32_t> nodeIDsetter(treeNode& baseNode){
 *      
 ***************************************************************************/
 
-// input: not required, file will persist for future writing
+// input: file name to save as
 // output: not required
 
 void createFile(){
