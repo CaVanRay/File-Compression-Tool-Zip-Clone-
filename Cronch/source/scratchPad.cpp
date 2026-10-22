@@ -91,7 +91,7 @@ void treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<siz
 // input: starts from the combined total node 
 // output: ID numbers for all bytes in tree
 
-uint32_t nodeIDsetter(treeNode& ){
+std::vector<uint32_t> nodeIDsetter(treeNode& ){
   
 }
 
