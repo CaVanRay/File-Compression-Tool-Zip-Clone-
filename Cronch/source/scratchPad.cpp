@@ -87,8 +87,8 @@ void treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<siz
 *      Using completed tree create an ID for each byte in the huffman tree
 *      
 ***************************************************************************/
-//
-// input: treeNode 
+
+// input: base tree node 
 // output: ID number
 
 uint32_t nodeIDsetter(treeNode& ){
