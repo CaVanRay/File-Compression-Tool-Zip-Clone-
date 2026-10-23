@@ -76,7 +76,7 @@ treeNode* right = nullptr;
 ***************************************************************************/
 
 // input: the vector list of bytes and the matching array of frequencies
-// output: technically void, but it will create a tree of connected nodes
+// output: once the tree has been built, it returns the final base node
 
 treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<size_t, 256>& frequencyMap){
     
