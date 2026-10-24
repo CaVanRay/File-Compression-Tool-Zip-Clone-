@@ -94,6 +94,7 @@ treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array
 // output: ID numbers for all bytes in tree
 
 std::vector<uint32_t> nodeIDsetter(treeNode& baseNode){
+    bool cont = true;
   
 }
 
