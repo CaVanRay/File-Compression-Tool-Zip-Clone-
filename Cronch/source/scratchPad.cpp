@@ -85,6 +85,7 @@ treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array
     -    so first track items to combine
             - This will be a list of items from frequencyMap
             - As well as previously combined items
+    -    Each og frequency item gets 
     */
 }
 
