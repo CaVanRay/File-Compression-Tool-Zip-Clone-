@@ -86,7 +86,7 @@ treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array
             - This will be a list of items from frequencyMap
             - As well as previously combined items
     -    Each og frequency item gets a treeNode
-    -    Everything else gets a
+    -    Everything else gets a interiorNode
     */
 }
 
