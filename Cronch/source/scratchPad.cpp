@@ -80,7 +80,7 @@ treeNode* right = nullptr;
 
 treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<size_t, 256>& frequencyMap){
     /*
-    There is an item on the list for every possible byte
+    There is an item on the list for every possible byte, each item is the frequency for the byte represented by its index
     */
 }
 
