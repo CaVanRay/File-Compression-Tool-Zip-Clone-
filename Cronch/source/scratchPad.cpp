@@ -82,6 +82,7 @@ treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array
     /*
     -    There is an item on the list for every possible byte
     -    each item is the frequency for the byte represented by its index
+    -    so first track items to combine
     */
 }
 
