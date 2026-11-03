@@ -78,7 +78,7 @@ struct treeNode{
     treeNode(std::byte oG, size_t oGfreq) : ogNumber(oG), freq(oGFreq) {}
 
     // Internal node constructor
-    treeNode(treeNode* leftChild, treeNode* rightChild) :
+    treeNode(treeNode* leftChild, treeNode* rightChild) : left(leftChild), right(rightChild) {}
 
 };
 
