@@ -72,6 +72,7 @@ struct treeNode{
     treeNode() : {}
 
     //  Parameterized Constructor
+    treeNode(bool leaf, std::byte oG, size_t oGFreq, treeNode* aMamma, treeNode* aPapa)
 
 };
 
