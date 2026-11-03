@@ -69,7 +69,9 @@ struct treeNode{
     treeNode* right = nullptr;
 
     // Default constructor
-    treeNode() : 
+    treeNode() : {}
+
+    // 
 
 };
 
