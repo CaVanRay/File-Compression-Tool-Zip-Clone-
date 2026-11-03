@@ -72,7 +72,7 @@ struct treeNode{
     treeNode() : isLeaf(false), ogNumber(0), freq(0), left(nullptr), right(nullptr) {}
 
     //  Parameterized Constructor
-    treeNode(bool leaf, std::byte oG, size_t oGFreq, treeNode* leftChild, treeNode* rightChild) : isLeaf(leaf), ogNumber(oG), freq(oGFreq), left(aMamma), right(aPapa) {}
+    treeNode(bool leaf, std::byte oG, size_t oGFreq, treeNode* leftChild, treeNode* rightChild) : isLeaf(leaf), ogNumber(oG), freq(oGFreq), left(leftChild), right(aPapa) {}
 
 };
 
