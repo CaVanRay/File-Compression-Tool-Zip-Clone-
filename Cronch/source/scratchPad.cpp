@@ -76,6 +76,8 @@ struct treeNode{
 
     // Leaf node constructor
 
+    // Internal node constructor
+
 };
 
 /***************************************************************************
