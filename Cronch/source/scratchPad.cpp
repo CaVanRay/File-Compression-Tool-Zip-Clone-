@@ -75,10 +75,10 @@ struct treeNode{
     treeNode(bool leaf, std::byte oG, size_t oGFreq, treeNode* leftChild, treeNode* rightChild) : isLeaf(leaf), ogNumber(oG), freq(oGFreq), left(leftChild), right(rightChild) {}
 
     // Leaf node constructor
-    treeNode(std::byte oG, size_t oGfreq) : ogNumber(oG), freq(oGFreq) {}
+    treeNode(std::byte oG, size_t oGfreq) : isLeaf(true), ogNumber(oG), freq(oGFreq) {}
 
     // Internal node constructor
-    treeNode(treeNode* leftChild, treeNode* rightChild) : left(leftChild), right(rightChild) {}
+    treeNode(treeNode* leftChild, treeNode* rightChild) : isLeaf(false), left(leftChild), right(rightChild) {}
 
 };
 
