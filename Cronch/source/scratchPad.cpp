@@ -90,7 +90,7 @@ struct treeNode{
 *      
 ***************************************************************************/
 
-// input: a list of frequencies - 
+// input: a list of frequencies - position in array equals the byte represented
 // output: once the tree has been built, it returns the final base node
 
 treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<size_t, 256>& frequencyMap){
