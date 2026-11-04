@@ -77,6 +77,7 @@ struct treeNode{
     // Internal node constructor
     treeNode(treeNode* leftChild, treeNode* rightChild) : isLeaf(false), freq(leftChild->freq + rightChild->freq), ogNumber(0), left(leftChild), right(rightChild){}
 
+    // Recursive deconstructor - will call on root and then it spreads down the legs
     ~treeNode(){
         delete left;
         delete right;
