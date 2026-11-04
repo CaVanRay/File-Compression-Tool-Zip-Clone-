@@ -95,13 +95,9 @@ struct treeNode{
 
 treeNode treeBuilder(const std::vector<std::byte>& fileInBytes, const std::array<size_t, 256>& frequencyMap){
     /*
-    -    There is an item on the list for every possible byte
-    -    each item is the frequency for the byte represented by its index
-    -    so first track items to combine
-            - This will be a list of items from frequencyMap
-            - As well as previously combined items
-    -    Each og frequency item gets a treeNode
-    -    Everything else gets a interiorNode
+    
+    
+    
     */
 }
 
