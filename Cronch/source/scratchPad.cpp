@@ -98,6 +98,9 @@ treeNode treeBuilder(const std::array<size_t, 256>& frequencyMap){
     // first, make a copy of the frequency in a list I can edit - a list of still active options
     /*
     wait, i only know the byte for the frequency from its location in the given array
+
+    but if I put the frequencies in a new list and start removing them, how do I then
+    know who is who?
     */
     
 }
