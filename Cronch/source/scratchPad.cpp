@@ -94,11 +94,9 @@ struct treeNode{
 // output: once the tree has been built, it returns the final base node
 
 treeNode treeBuilder(const std::array<size_t, 256>& frequencyMap){
-    /*
     
-    first, make a copy of the frequency in a list I can edit - a list of still active options
+    //first, make a copy of the frequency in a list I can edit - a list of still active options
     
-    */
 }
 
 /***************************************************************************
