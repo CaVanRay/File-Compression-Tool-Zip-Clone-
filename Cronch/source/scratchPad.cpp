@@ -80,6 +80,10 @@ struct treeNode{
     // Internal node constructor
     treeNode(treeNode* leftChild, treeNode* rightChild) : isLeaf(false), left(leftChild), right(rightChild) {}
 
+    ~treeNode(){
+        delete left;
+        delete right;
+    }
 };
 
 /***************************************************************************
