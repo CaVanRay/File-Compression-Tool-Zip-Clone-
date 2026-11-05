@@ -92,6 +92,8 @@ struct treeNode{
 
 struct compareFreq{
 
+    bool operator()
+
 };
 
 /***************************************************************************
