@@ -91,6 +91,7 @@ struct treeNode{
 ***************************************************************************/
 
 // input: pointers to two nodes in the huffman tree
+// output:
 
 struct compareFreq{
 
