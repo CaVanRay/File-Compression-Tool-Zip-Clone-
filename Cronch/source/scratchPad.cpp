@@ -89,7 +89,9 @@ struct treeNode{
 *      Comparater for priority queue
 *      
 ***************************************************************************/
-// input:
+
+// input: pointers to two nodes in the huffman tree
+
 struct compareFreq{
 
     bool operator()(treeNode* a, treeNode* b) { 
