@@ -89,7 +89,7 @@ struct treeNode{
 *      Comparater for priority queue
 *      
 ***************************************************************************/
-
+// input:
 struct compareFreq{
 
     bool operator()(treeNode* a, treeNode* b) { 
