@@ -96,7 +96,7 @@ struct treeNode{
 treeNode treeBuilder(const std::array<size_t, 256>& frequencyMap){
     
     std::vector<treeNode> nodeList;
-    for(auto freq : frequencyMap){
+    for(size_t i = 0; i < frequencyMap.size(); i++){
         if(freq > 0){
             
         }
