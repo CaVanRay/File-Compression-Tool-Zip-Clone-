@@ -102,7 +102,9 @@ treeNode treeBuilder(const std::array<size_t, 256>& frequencyMap){
             nodeList.push_back(new treeNode(std::byte{i}, freq));
         }
     }
-    
+    while(nodeList.size() > 1){
+        
+    }
 }
 
 /***************************************************************************
