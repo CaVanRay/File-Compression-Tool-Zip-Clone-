@@ -93,7 +93,7 @@ struct treeNode{
 struct compareFreq{
 
     bool operator()(treeNode* a, treeNode* b) { 
-        return a->freq
+        return a->freq >
     }
 };
 
