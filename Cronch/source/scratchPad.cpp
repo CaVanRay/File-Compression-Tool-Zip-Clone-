@@ -91,7 +91,7 @@ struct treeNode{
 ***************************************************************************/
 
 // input: pointers to two nodes in the huffman tree
-// output:
+// output: true or false whether the first pointer frequency is smaller
 
 struct compareFreq{
 
