@@ -90,6 +90,12 @@ struct treeNode{
 *      
 ***************************************************************************/
 
+/***************************************************************************
+*
+*      Build tree
+*      
+***************************************************************************/
+
 // input: a list of frequencies - position in array equals the byte represented
 // output: once the tree has been built, it returns the final base node
 
