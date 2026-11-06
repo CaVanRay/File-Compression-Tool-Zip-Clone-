@@ -128,7 +128,7 @@ treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
         treeNode* leftChild = nodeList.top();
         nodeList.pop();
 
-        treeNode* rightChild 
+        treeNode* rightChild = nodeList.top();
         
     }
     
