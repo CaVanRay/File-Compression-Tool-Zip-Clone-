@@ -124,6 +124,8 @@ treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
         return nullptr;
     
     while(nodeList.size() > 1){
+
+        treeNode* leftChild 
         
     }
     
