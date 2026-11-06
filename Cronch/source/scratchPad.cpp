@@ -111,7 +111,7 @@ struct compareFreq{
 
 treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
     
-    std::vector<treeNode*> nodeList;
+    
     for(size_t i = 0; i < frequencyMap.size(); i++){
         size_t freq = frequencyMap[i];
         if(freq > 0){
