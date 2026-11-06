@@ -123,7 +123,7 @@ treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
         
     }
     
-    return
+    return nodeList.top();
         
 }
 
