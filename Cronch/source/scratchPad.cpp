@@ -107,7 +107,7 @@ struct compareFreq{
 ***************************************************************************/
 
 // input: a list of frequencies - position in array equals the byte represented
-// output: once the tree has been built, it returns the final base node
+// output: once the tree has been built, it returns a pointer to the final base node
 
 treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
     
