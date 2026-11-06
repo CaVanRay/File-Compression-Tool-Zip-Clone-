@@ -116,7 +116,7 @@ treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
     for(size_t i = 0; i < frequencyMap.size(); i++){
         size_t freq = frequencyMap[i];
         if(freq > 0){
-            nodeList.push(new treeNode(std::byte{i}, freq));
+            nodeList.push(new treeNode(static_cast<std::byte>(i), freq));
         }
     }
 
