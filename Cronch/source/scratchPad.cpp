@@ -156,7 +156,7 @@ std::vector<uint32_t> nodeIDsetter(treeNode& baseNode){
     // THIS WONT WORK
     while((current->left != nullptr) && (current->right != nullptr)){
 
-        
+        // BUT IT'S BETTER THAN WRITING NOTHING
         
     }
   
