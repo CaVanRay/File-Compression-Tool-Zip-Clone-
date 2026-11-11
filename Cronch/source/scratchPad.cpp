@@ -153,7 +153,7 @@ std::vector<uint32_t> nodeIDsetter(treeNode& baseNode){
 
     treeNode* current = baseNode;
     
-    while((current->left != nullptr)(current->right != nullptr)){
+    while((current->left != nullptr) && (current->right != nullptr)){
 
         
         
