@@ -152,7 +152,12 @@ treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
 std::vector<uint32_t> nodeIDsetter(treeNode& baseNode){
 
     treeNode* current = baseNode;
-    while((current->left != nullptr)(current->right != nullptr))
+    
+    while((current->left != nullptr)(current->right != nullptr)){
+
+        
+        
+    }
   
 }
 
