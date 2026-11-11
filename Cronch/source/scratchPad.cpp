@@ -150,6 +150,8 @@ treeNode* treeBuilder(const std::array<size_t, 256>& frequencyMap){
 // output: ID numbers for all bytes in tree
 
 std::vector<uint32_t> nodeIDsetter(treeNode& baseNode){
+
+    treeNode* current;
     while((current->left != nullptr)(current->right != nullptr))
   
 }
