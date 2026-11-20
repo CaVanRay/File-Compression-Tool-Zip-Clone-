@@ -2,12 +2,12 @@
 ## A tool for taking big files and making them smaller for easier transfer/transport
 ***
 
-I looked up some info on "building your first real compressor" and I think I found a good guide for feeling the process out
+## I looked up some info on "building your first real compressor" and I think I found a good guide for feeling the process out
 
 Currently have all the examples for the first section, next I need to work on using them to make a working version
 of my own
 
-## Start: Huffman Coding (your first real compressor)
+## Start: Huffman Coding 
 
 1. Read the file into a std::vector<uint8_t> using std::ifstream in binary mode.
 
